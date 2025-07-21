@@ -8,20 +8,20 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
 
-let pronouns = ['the','our','my','them'];
-let adjs = ['great','big','best','perfect'];
-let nouns = ['jogger','racoon','team','website'];
-let extensions = ['.com','.net','.org','.es']
+  const pronouns = ['the','our','my','them'];
+  const adjs = ['great','big','best','perfect'];
+  const nouns = ['jogger','racoon','team','website'];
+  const extensions = ['.com','.net','.org','.es']
 
-for (let pronoun of pronouns){
-  for (let adj of adjs) {
-    for (let noun of nouns) {
-      for (let extension of extensions) {
-        console.log(`${pronoun}${adj}${noun}${extension}`);      
+  for (const pronoun of pronouns){
+    for (const adj of adjs) {
+      for (const noun of nouns) {
+        for (const extension of extensions) {
+          console.log(`${pronoun}${adj}${noun}${extension}`);      
+        }
       }
     }
   }
-}
 
 };
 
